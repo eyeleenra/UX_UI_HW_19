@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+h1 {
+    font-family: 'DM Serif Display', sans-serif;
+}
+p {
+    font-family: 'Manrope', serif;
+}
+.inline-block {
+    display: inline-block;
+    font-family: 'Manrope', serif;
+    font-weight: semibold;
+    font-size: 16px;
+    vertical-align: top;
+    gap: 15px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.logo img {
+    width: 100px;
+    padding-right: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8rem;
+}
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+    min-width: 80px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: semibold;
+}
+nav ul li a.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+nav ul li a.contact-button:hover {
+    background-color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 4rem;
+}
+
+.main p {
+    font-size: 24px;
+}
+.scroll-down-arrow img {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.heroImg {
+    text-align: center;
+    padding: 50px 500px;
+    align-items: left;
+    margin-top: 20vh;
+}
+.heroImg h1 {
+    margin: 0;
+    font-size: 2.5em;
+    padding-bottom: 100px;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.about-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.about-text h2, .about-text p, .about-text button{
+    margin: 0;
+}
+.about-text h2 {
+    font-size: 32px;
+}
+.about-text h3 {
+    font-size: 24px;
+}
+.about-text h4 {
+    font-size: 20px;
+}
+.about-text p {
+    margin: 10px 0;
+}
+.about-text button {
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-bottom: 56px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #9f9f9f;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.about-image {
+    flex: 1;
+    text-align: right;
+}
+.about-image img {
+    width: 199px;
+    height: 270px;
+    flex-shrink: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'DM Serif Display', sans-serif;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+p {
+    font-family: 'Manrope', serif;
+}
+.mySkills {
+    padding: 20px;
+    text-align: center;
+}
+.mySkills h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.flexContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.skill {
+    padding: 20px 40px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-style: solid;
+    text-align: left;
+}
+.skill h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.skill p {
+    font-size: 18px;
+}
+.skill:nth-child(1) {
+    border-radius: 10px 10px 70px 10px;
+}
+.skill:nth-child(2) {
+    border-radius: 10px 10px 10px 70px;
+}
+.skill:nth-child(3) {
+    border-radius: 10px 70px 10px 10px;
+}
+.skill:nth-child(4) {
+    border-radius: 70px 10px 10px 10px;
+}
+.toolsUsed {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Manrope', serif;
+}
+.toolsUsed strong{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'DM Serif Display', sans-serif;
+    padding-right: 40px;
+}
+.workGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.workItem {
+    flex: 0 0 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+.workItem img {
+    max-width: 100%;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.workItem h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.workItem p {
+    font-size: 18px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%;
+    bottom: 0;
+    background: var(--footer, linear-gradient(180deg, #FFF 0%, #FFE1E1 28%, #FF8FB0 100%));
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-content h2 {
+    margin: 10px;
+}
+.footer-content img {
+    height: 93px;
+    margin-right: 20px;
+    align-self: stretch;
+    padding: 10px;
+}
+.contact-info {
+    font-family: 'Manrope', serif;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.contact-info li {
+    margin: 5px 0;
+    display: flex;
+    text-align: center;
+}
+.contact-info li img{
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.contact-info li a {
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600){
+    .mySkills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillItem {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .workItem {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
